@@ -4,7 +4,6 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "AudioAnalyzerNRT.h"
 #include "Landscape.h"
 
 #include "LNDSCP.generated.h"
@@ -18,15 +17,6 @@ public:
 	// Sets default values for this actor's properties
 	ALNDSCP();
 
-
-	UPROPERTY(BlueprintReadWrite, EditAnywhere)
-		UAudioAnalyzerNRT* NRT;
-
-	UPROPERTY(BlueprintReadWrite, EditAnywhere)
-		UAudioAnalyzerNRTSettings* NRTSettings;
-
-	UPROPERTY(BlueprintReadWrite, EditAnywhere)
-		UAudioAnalyzerAsset* asset;
 
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
