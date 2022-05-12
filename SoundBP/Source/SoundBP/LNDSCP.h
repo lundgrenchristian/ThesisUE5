@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "Landscape.h"
+//#include "Landscape.h"
 
 #include "LNDSCP.generated.h"
 
@@ -19,12 +19,12 @@ public:
 
 
 
-	UPROPERTY(BlueprintReadWrite, EditAnywhere)
-		ALandscape* landscapen;
+	//UPROPERTY(BlueprintReadWrite, EditAnywhere)
+	//	ALandscape* landscapen;
 
 
-	UFUNCTION(BlueprintCallable)
-		float CreateLandscape(ALandscape* landscape, TArray<float> spectrogram_values);
+	//UFUNCTION(BlueprintCallable)
+	//	float CreateLandscape(ALandscape* landscape, TArray<float> spectrogram_values);
 
 
 

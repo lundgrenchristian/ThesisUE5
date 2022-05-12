@@ -10,7 +10,7 @@ public class SoundBP : ModuleRules
 
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay"});
 
-		PrivateDependencyModuleNames.AddRange(new string[] { "Landscape", "LandscapeEditor" });
+		//PrivateDependencyModuleNames.AddRange(new string[] { "Landscape", "LandscapeEditor" });
 
 		// Uncomment if you are using Slate UI
 		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
